@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    name1 = "hhh";
+    function Person(name){
+        this.name = name;
+        this.sayname = function(){
+            console.log(name);
+        }
+       
+    }
+    Person.sayname1 = function(){
+        console.log("jjj")
+    }
+    Person.prototype.eat = function(){
+        console.log("我吃动力");
+    }
+    
+    console.log(Person.name)
+    console.log("window.name")
+    console.log(window.name)
+    // console.log(Person);
+   // Person.eat();
+    // var p1 = new Person("华子");
+    // console.log(p1);
+    // p1.sayname();
+    // console.log(p1)
+    // p1.__proto__.hh = function(){
+    //     console.log("llll");
+    // }
+    // p1.hh();
+</script>
+<body>  
+    <p>宋超就是一个傻逼</p>
+</body>
+</html>
